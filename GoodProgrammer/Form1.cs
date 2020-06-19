@@ -20,6 +20,7 @@ namespace GoodProgrammer
         private void button1_Click(object sender, EventArgs e)
         {
             //nothing
+            textBox2.Text = (Convert.ToInt32(textBox1.Text) % 2 == 0) ? "Even" : "Odd";
         }
     }
 }
